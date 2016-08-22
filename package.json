@@ -1,0 +1,40 @@
+{
+  "name": "sphero-cli",
+  "version": "0.1.0",
+  "description": "A Node CLI Tool for Sphero",
+  "author": "nmrmsys",
+  "license": "MIT",
+  "keywords": [
+    "Sphero",
+    "Robot"
+  ],
+  "homepage": "https://github.com/nmrmsys/sphero-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrmsys/sphero-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nmrmsys/sphero-cli/issues"
+  },
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "body-parser": "^1.14.2",
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "github": "^0.2.4",
+    "home-config": "^0.1.0",
+    "lodash": "^4.0.0",
+    "noble": "^1.3.0",
+    "play-sound": "0.0.7",
+    "request": "^2.67.0",
+    "sphero": "^0.7.0",
+    "twitter": "^1.2.5",
+    "keypress": "0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "bin": {
+    "sphero": "./bin/sphero"
+  }
+}
