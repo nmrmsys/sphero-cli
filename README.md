@@ -1,5 +1,5 @@
 # sphero-cli
-A Node CLI Tool for Sphero Robot using the [Sphero Javascript SDK](http://sdk.sphero.com/community-apis/javascript-sdk/)
+A Node CLI Tool for Sphero Robot using the [Sphero official Javascript SDK](https://github.com/orbotix/sphero.js)
 
 This project forked [mintuz/BB8-Commander](https://github.com/mintuz/BB8-Commander), and added below features
 * `node index.js <command>` shortcuts `sphero <command>` script 
