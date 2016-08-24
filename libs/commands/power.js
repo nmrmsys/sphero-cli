@@ -18,5 +18,6 @@ module.exports = function (sphero) {
         console.log("Charge Count:     ", data.chargeCount);
         console.log("Time Since Charge:", Math.floor(data.secondsSinceCharge / 60) +" minutes");
       }
+      process.exit(0);
     });
 };

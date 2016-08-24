@@ -1,5 +1,4 @@
 var sphero,
-    appRootPath = require('app-root-path'),
     _ = require('lodash');
 
 module.exports = function (command, options) {

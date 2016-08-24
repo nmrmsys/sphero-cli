@@ -93,7 +93,6 @@ program
     .command('power')
     .description('get the power state of the Sphero')
     .action(function (options) {
-        command = 'power';
         executeCommand('power');
     });
 
